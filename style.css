@@ -15,11 +15,8 @@
     /*sombras*/
     --sombra: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
 
-    /*tamanho das fontes*/
     --font-base: 16px;
-    /* Tamanho base da fonte */
     --font-scale: 1.2;
-    /* Fator de escala para aumentar o tamanho das fontes */
 }
 
 /*Zerando CSS*/
@@ -50,7 +47,6 @@ h6 {
     font-family: 'Poppins';
     font-weight: 700;
     font-size: calc(var(--font-base) * var(--font-scale));
-    /* Aumentando o tamanho da fonte */
 }
 
 a {
@@ -67,7 +63,6 @@ p {
     font-weight: 600;
     text-align: justify;
     font-size: calc(var(--font-base) * var(--font-scale));
-    /* Aumentando o tamanho da fonte */
 }
 
 
@@ -82,10 +77,12 @@ header {
     justify-content: space-between;
     display: block;
     z-index: 1;
+    align-content: center;
 }
 
 .log {
-    width: 50px;
+    width: 100px;
+    margin-right: 20px;
 }
 
 .logo {
@@ -102,6 +99,8 @@ header {
     align-items: center;
     padding: 0px 200px;
     font-size: 3em;
+    align-content: center;
+    align-items: center;
 }
 .nav-bar li {
     display: inline;
@@ -221,7 +220,6 @@ footer {
 
 footer p {
     max-width: 1140px;
-    /* Alterado para 1140px */
     margin: 0 auto;
     padding: 0px 200px;
     color: var(--secondary);
@@ -290,7 +288,6 @@ footer p {
     .ifundo h1 {
         padding: 10px;
         font-size: calc(var(--font-base) * var(--font-scale));
-        /* Aumentando o tamanho da fonte */
     }
 }
 
@@ -325,7 +322,7 @@ section p {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 10px;
 }
 .informativo {
@@ -389,7 +386,6 @@ a.button {
 
 .ali h2 {
     font-size: calc(28px * var(--font-scale));
-    /* Aumentando o tamanho da fonte */
     text-align: left;
     margin-bottom: -20px;
 }
