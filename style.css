@@ -14,6 +14,12 @@
 
     /*sombras*/
     --sombra: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+
+    /*tamanho das fontes*/
+    --font-base: 16px;
+    /* Tamanho base da fonte */
+    --font-scale: 1.2;
+    /* Fator de escala para aumentar o tamanho das fontes */
 }
 
 /*Zerando CSS*/
@@ -29,7 +35,7 @@ body {
     height: 100%;
     width: auto;
     background: #F5F3FF;
-    font-size: 0.8em;
+    font-size: var(--font-base);
     overflow: hidden;
     overflow-y: auto;
 }
@@ -43,12 +49,16 @@ h6 {
     color: var(--primary);
     font-family: 'Poppins';
     font-weight: 700;
+    font-size: calc(var(--font-base) * var(--font-scale));
+    /* Aumentando o tamanho da fonte */
 }
 
 a {
     color: var(--link);
     font-family: 'Open Sans';
     font-weight: 600;
+    font-size: calc(var(--font-base) * var(--font-scale));
+    /* Aumentando o tamanho da fonte */
 }
 
 p {
@@ -56,6 +66,8 @@ p {
     color: var(--text);
     font-weight: 600;
     text-align: justify;
+    font-size: calc(var(--font-base) * var(--font-scale));
+    /* Aumentando o tamanho da fonte */
 }
 
 
@@ -84,13 +96,12 @@ header {
 }
 
 .nav-bar {
-    max-width: 1140px;
-    /* Alterado para 1140px */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 200px;
+    font-size: 1.5em;
 }
 
 .nav-bar li {
@@ -261,7 +272,8 @@ footer p {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 35px;
+    font-size: calc(var(--font-base) * var(--font-scale));
+    /* Aumentando o tamanho da fonte */
 }
 
 .ifundo img {
@@ -278,7 +290,8 @@ footer p {
 @media screen and (max-width: 1140px) {
     .ifundo h1 {
         padding: 10px;
-        font-size: 32px;
+        font-size: calc(var(--font-base) * var(--font-scale));
+        /* Aumentando o tamanho da fonte */
     }
 }
 
@@ -378,7 +391,8 @@ a.button {
 }
 
 .ali h2 {
-    font-size: 28px;
+    font-size: calc(28px * var(--font-scale));
+    /* Aumentando o tamanho da fonte */
     text-align: left;
     margin-bottom: -20px;
 }
