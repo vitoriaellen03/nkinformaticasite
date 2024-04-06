@@ -101,9 +101,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 200px;
-    font-size: 1.5em;
+    font-size: 3em;
 }
-
 .nav-bar li {
     display: inline;
 }
@@ -272,8 +271,8 @@ footer p {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: calc(var(--font-base) * var(--font-scale));
-    /* Aumentando o tamanho da fonte */
+    font-size: calc(var(--font-base)* var(--font-scale));
+    font-size: 4em;
 }
 
 .ifundo img {
@@ -296,13 +295,14 @@ footer p {
 }
 
 .come {
-    max-width: 500px;
+    max-width: 700px;
     text-align: center;
     padding: 30px 30px 0 !important;
 }
 
 .come h2 {
     padding: 10px 0;
+    font-size: 2em;
 }
 
 section {
@@ -310,12 +310,12 @@ section {
 }
 
 section h2 {
-    font-size: 15px;
     color: var(--title);
+    font-size: 2em;
 }
 
 section p {
-    font-size: 9px;
+    font-size: 1em;
 }
 
 .title {
@@ -325,10 +325,9 @@ section p {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 10px;
 }
-
 .informativo {
     padding: 10px;
     background: var(--fundo);
@@ -343,11 +342,10 @@ section p {
 
 .informativo h5 {
     text-align: center;
-    line-height: 25px;
+    font-size: 1.4em;
+    margin: 20px 0px;
 }
-
 .informativo p {
-    font-size: 9px;
     text-align: justify;
     margin-bottom: 15px;
 }
@@ -355,7 +353,6 @@ section p {
 a.button {
     text-align: center;
     text-decoration: none;
-    font-size: 9px;
     font-weight: 700;
     background-color: var(--link);
     color: var(--secondary);
