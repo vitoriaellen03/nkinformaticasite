@@ -355,6 +355,7 @@ a.button {
     color: var(--secondary);
     padding: 5px;
     border-radius: 2px;
+    display: block;
 }
 
 /* Responsividade */
