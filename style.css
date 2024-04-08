@@ -37,12 +37,7 @@ body {
     overflow-y: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     color: var(--primary);
     font-family: 'Poppins';
     font-weight: 700;
@@ -268,8 +263,7 @@ footer p {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: calc(var(--font-base)* var(--font-scale));
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .ifundo img {
