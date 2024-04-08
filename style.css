@@ -280,7 +280,6 @@ footer p {
 @media screen and (max-width: 1140px) {
     .ifundo h1 {
         padding: 10px;
-        font-size: calc(var(--font-base) * var(--font-scale));
     }
 }
 
