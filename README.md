@@ -2,4 +2,4 @@
 Esse site é apenas um site demonstrativo de serviços oferecidos por essa Assistência Técnica de Informática
 
 Acesse o site em:
-nkinformatica.netlify.app/
+https://nkinformatica.netlify.app/
